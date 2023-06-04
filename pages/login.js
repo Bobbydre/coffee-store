@@ -66,7 +66,6 @@ const Login = () => {
       setUserMsg("Enter a valid email address");
     }
   };
-
   return (
     <div className={styles.container}>
       <Head>
