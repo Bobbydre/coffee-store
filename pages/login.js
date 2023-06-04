@@ -53,7 +53,7 @@ const Login = () => {
             router.push("/");
           }
         } catch (error) {
-          // Handle errors if required
+          // Handle errors if required!
           console.error("Something went wrong logging in", error);
           setIsLoading(false);
         }
@@ -62,10 +62,12 @@ const Login = () => {
         setUserMsg("Something went wrong logging in");
       }
     } else {
+      // show user message
       setIsLoading(false);
       setUserMsg("Enter a valid email address");
     }
   };
+
   return (
     <div className={styles.container}>
       <Head>
