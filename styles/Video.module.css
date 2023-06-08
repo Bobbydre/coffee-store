@@ -24,7 +24,6 @@
   height: 100vh;
 }
 
-/** gives box shadow to the video frame **/
 .borderBoxShadow {
   -webkit-box-shadow: 0 3px 7px var(--shadow20);
   -moz-box-shadow: 0 3px 7px var(--shadow20);
@@ -36,13 +35,11 @@
   background: linear-gradient(to top, var(--black10), transparent 50%);
 }
 
-/** Makes video edges curvy **/
 .videoPlayer {
   border-radius: 10px 10px 0px 0px;
   composes: borderBoxShadow;
 }
 
-/** Modal body **/
 .modalBody {
   padding: 0 3rem;
 }
@@ -54,46 +51,46 @@
 }
 
 .col1 {
-  max-height: 50vh /* 208px */;
+  max-height: 50vh;
   overflow-y: hidden;
   overflow-y: scroll;
 }
 
 .publishTime {
-  font-size: 1.125rem /* 18px */;
-  line-height: 1.75rem /* 28px */;
-  margin-top: 1.5rem /* 24px */;
-  margin-bottom: 0.5rem /* 8px */;
+  font-size: 1.125rem ;
+  line-height: 1.75rem ;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
   color: var(--green10);
 }
 
 .text {
-  font-size: 1.125rem /* 18px */;
-  line-height: 1.75rem /* 28px */;
+  font-size: 1.125rem ;
+  line-height: 1.75rem ;
   color: var(--white10);
 }
 
 .description {
-  margin-bottom: 0.5rem /* 8px */;
-  margin-top: 0.75rem /* 12px */;
+  margin-bottom: 0.5rem;
+  margin-top: 0.75rem ;
 }
 
 .col2 {
   color: var(--white10);
-  line-height: 1.75rem /* 28px */;
+  line-height: 1.75rem;
   display: flex;
   flex-direction: column;
 }
 
 .subText {
-  font-size: 0.875rem /* 14px */;
-  line-height: 1.25rem /* 20px */;
+  font-size: 0.875rem ;
+  line-height: 1.25rem;
   margin-left: 0px;
   overflow-wrap: break-word;
 }
 
 .subTextWrapper {
-  margin-top: 1.5rem /* 24px */;
+  margin-top: 1.5rem ;
 }
 
 .textColor {
