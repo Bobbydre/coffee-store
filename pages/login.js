@@ -41,7 +41,6 @@ const Login = () => {
     setIsLoading(true);
 
     if (email) {
-      if (email === "dareboboye@gmail.com") {
         //  log in a user by their email
         try {
           const didToken = await magic.auth.loginWithMagicLink({
@@ -74,13 +73,7 @@ const Login = () => {
         setIsLoading(false);
         setUserMsg("Something went wrong logging in");
       }
-    } else {
-      // show user message
-      setIsLoading(false);
-      setUserMsg("Enter a valid email address");
-    }
-  };
-
+    } 
   return (
     <div className={styles.container}>
       <Head>
